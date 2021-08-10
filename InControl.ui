@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>723</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.522, y1:0.516909, x2:0.517, y2:1, stop:0.448864 rgba(65, 63, 205, 37), stop:1 rgba(255, 255, 255, 255));</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">font: 87 18pt &quot;Arial Black&quot;;
+color: rgb(0,0,0);
+background-color: rgba(0, 0, 0,0%);
+
+
+</string>
+           </property>
+           <property name="text">
+            <string>Control estudiante</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <layout class="QGridLayout" name="gridLayout">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_6">
+                 <property name="styleSheet">
+                  <string notr="true">
+font: 87 11pt &quot;Arial Black&quot;;
+color: rgb(0,0,0);
+background-color: rgba(0, 0, 0,0%);</string>
+                 </property>
+                 <property name="text">
+                  <string>Datos personales</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="1">
+                <widget class="QLineEdit" name="ContTempe">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+border: none;
+font: 87 11pt &quot;Arial&quot;;
+border-bottom: 1px solid black;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QLabel" name="HisNombre">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+border: none;
+font: 87 11pt &quot;Arial&quot;;
+border-bottom: 1px solid black;</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_10">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+font: 87 11pt &quot;Arial &quot;;
+color: rgb(0,0,0);</string>
+                 </property>
+                 <property name="text">
+                  <string>Nombres:</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="label_11">
+                 <property name="styleSheet">
+                  <string notr="true">
+background-color: rgba(0, 0, 0,0%);
+font: 87 11pt &quot;Arial &quot;;
+color: rgb(0,0,0);</string>
+                 </property>
+                 <property name="text">
+                  <string>Apellidos:</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_9">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+font: 87 11pt &quot;Arial &quot;;
+color: rgb(0,0,0);</string>
+                 </property>
+                 <property name="text">
+                  <string>Identificación:</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="0">
+                <widget class="QLabel" name="label_5">
+                 <property name="styleSheet">
+                  <string notr="true">
+font: 87 11pt &quot;Arial&quot;;
+color: rgb(0,0,0);
+background-color: rgba(0, 0, 0,0%);</string>
+                 </property>
+                 <property name="text">
+                  <string>Temperatura:</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QLabel" name="HisFechaNac">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+border: none;
+font: 87 11pt &quot;Arial&quot;;
+border-bottom: 1px solid black;</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QLabel" name="HisApellido">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+border: none;
+font: 87 11pt &quot;Arial&quot;;
+border-bottom: 1px solid black;
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QLabel" name="label_8">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+font: 87 11pt &quot;Arial &quot;;
+color: rgb(0,0,0);</string>
+                 </property>
+                 <property name="text">
+                  <string>Fecha de nacimiento:</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLabel" name="HisNumHis">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+border: none;
+font: 87 11pt &quot;Arial&quot;;
+border-bottom: 1px solid black;</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLabel" name="HisIdenti">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+border: none;
+font: 87 11pt &quot;Arial&quot;;
+border-bottom: 1px solid black;
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_7">
+                 <property name="styleSheet">
+                  <string notr="true">font: 87 11pt &quot;Arial &quot;;
+color: rgb(0,0,0);
+background-color: rgba(0, 0, 0,0%);</string>
+                 </property>
+                 <property name="text">
+                  <string>Numero de historia:</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="1">
+                <widget class="QLineEdit" name="ContHora">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+border: none;
+font: 87 11pt &quot;Arial&quot;;
+border-bottom: 1px solid black;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="1">
+                <widget class="QComboBox" name="ContComJorn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>174</width>
+                   <height>21</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(214, 214, 235);
+border: none;
+font: 87 11pt &quot;Arial&quot;;
+border-bottom: 1px solid black;
+</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>Diurna</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Nocturna</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="9" column="0">
+                <widget class="QLabel" name="label_4">
+                 <property name="styleSheet">
+                  <string notr="true">
+font: 87 11pt &quot;Arial &quot;;
+color: rgb(0,0,0);
+background-color: rgba(0, 0, 0,0%);</string>
+                 </property>
+                 <property name="text">
+                  <string>Jornada:</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QLabel" name="label_13">
+                 <property name="styleSheet">
+                  <string notr="true">
+font: 87 11pt &quot;Arial Black&quot;;
+color: rgb(0,0,0);
+background-color: rgba(0, 0, 0,0%);</string>
+                 </property>
+                 <property name="text">
+                  <string>Datos Control</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="0">
+                <widget class="QLabel" name="label_12">
+                 <property name="styleSheet">
+                  <string notr="true">
+font: 87 11pt &quot;Arial&quot;;
+color: rgb(0,0,0);
+background-color: rgba(0, 0, 0,0%);</string>
+                 </property>
+                 <property name="text">
+                  <string>Fecha:</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="0">
+                <widget class="QLabel" name="label_3">
+                 <property name="styleSheet">
+                  <string notr="true">
+font: 87 11pt &quot;Arial &quot;;
+color: rgb(0,0,0);
+background-color: rgba(0, 0, 0,0%);</string>
+                 </property>
+                 <property name="text">
+                  <string>Hora:</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="1">
+                <widget class="QLineEdit" name="ContFecha">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0%);
+border: none;
+font: 87 11pt &quot;Arial&quot;;
+border-bottom: 1px solid black;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="0">
+                <spacer name="verticalSpacer_6">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="ContBotGuardar">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	
+	background-color: rgb(0, 0, 0);
+	font: 87 13pt &quot;Arial Black&quot;;
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+
+	background-color:#00aaff;
+	font: 87 13pt &quot;Arial Black&quot;;
+	color: rgb(0, 0, 0);
+
+}</string>
+             </property>
+             <property name="text">
+              <string>Guardar</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <spacer name="verticalSpacer_8">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Expanding</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="minimumSize">
+              <size>
+               <width>120</width>
+               <height>120</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(0, 0, 0,0%);
+</string>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/cct/imagenes/klipartz.com (27).png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="ContBotRegresar_2">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	
+	background-color: rgb(0, 0, 0);
+	font: 87 13pt &quot;Arial Black&quot;;
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+
+	background-color:#00aaff;
+	font: 87 13pt &quot;Arial Black&quot;;
+	color: rgb(0, 0, 0);
+
+}</string>
+             </property>
+             <property name="text">
+              <string>Encuesta</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Expanding</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>28</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ContBotRegresar">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	
+	background-color: rgb(0, 0, 0);
+	font: 87 13pt &quot;Arial Black&quot;;
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+
+	background-color:#00aaff;
+	font: 87 13pt &quot;Arial Black&quot;;
+	color: rgb(0, 0, 0);
+
+}</string>
+           </property>
+           <property name="text">
+            <string>Regresar</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

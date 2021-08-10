@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="cct">
+    <file>imagenes/klipartz.com (28).png</file>
+    <file>imagenes/klipartz.com (27).png</file>
+    <file>imagenes/klipartz.com (26).png</file>
+    <file>imagenes/klipartz.com (25).png</file>
+    <file>imagenes/klipartz.com (24).png</file>
+    <file>imagenes/klipartz.com (22).png</file>
+    <file>imagenes/klipartz.com (20).png</file>
+    <file>imagenes/klipartz.com (23).png</file>
+    <file>imagenes/klipartz.com (14).png</file>
+    <file>imagenes/klipartz.com (15).png</file>
+    <file>imagenes/klipartz.com (16).png</file>
+    <file>imagenes/klipartz.com (17).png</file>
+    <file>imagenes/klipartz.com (19).png</file>
+    <file>imagenes/klipartz.com (13).png</file>
+    <file>imagenes/klipartz.com (11).png</file>
+    <file>imagenes/klipartz.com (10).png</file>
+    <file>imagenes/klipartz.com (9).png</file>
+    <file>imagenes/klipartz.com (2).png</file>
+    <file>imagenes/klipartz.com (5).png</file>
+    <file>imagenes/klipartz.com (6).png</file>
+    <file>imagenes/klipartz.com (8).png</file>
+  </qresource>
+</RCC>
